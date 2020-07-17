@@ -12,6 +12,7 @@ typedef NS_ENUM(NSInteger, EXUpdatesCheckAutomaticallyConfig) {
 
 @property (nonatomic, readonly) BOOL isEnabled;
 @property (nonatomic, readonly) NSURL *updateUrl;
+@property (nonatomic, readonly) NSDictionary *requestHeaders;
 @property (nonatomic, readonly) NSString *releaseChannel;
 @property (nonatomic, readonly) NSNumber *launchWaitMs;
 @property (nonatomic, readonly) EXUpdatesCheckAutomaticallyConfig checkOnLaunch;
